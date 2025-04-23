@@ -1,7 +1,7 @@
 import psycopg2
 import csv
 
-# Подключение к БД
+# Подключени к БД
 def get_connection():
     return psycopg2.connect(
         dbname="your_db_name",
